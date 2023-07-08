@@ -1,0 +1,60 @@
+/* Colors */
+:root {
+    --white: hsl(0, 0%, 100%);
+    --light-gray: hsl(212, 45%, 89%);
+    --grayish-blue: hsl(220, 15%, 55%);
+    --dark-blue: hsl(218, 44%, 22%);
+}
+
+* {
+    font-family: 'Outfit', sans-serif;
+    ;
+}
+
+body {
+    background-color: var(--grayish-blue);
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 15px;
+    font-weight: 400;
+    min-height: 95vh;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+
+
+.container {
+    padding: 14px;
+    background-color: var(--white);
+    border-radius: 16px;
+    width: 250px;
+    text-align: center;
+
+}
+
+.container img {
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+.container h3 {
+    font-weight: 700 !important;
+}
+
+.container p {
+    color: var(--grayish-blue);
+}
